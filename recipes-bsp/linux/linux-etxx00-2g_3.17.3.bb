@@ -21,7 +21,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "https://www.dropbox.com/s/raw/67qcnqy36i5qv4r/linux-3.17.3.tar.gz \
+SRC_URI += "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/linux-3.17.3.tar.gz \
 	file://defconfig \
 	file://add-dmx-source-timecode.patch \
 	file://af9015-output-full-range-SNR.patch \

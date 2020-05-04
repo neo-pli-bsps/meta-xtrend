@@ -22,7 +22,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "https://www.dropbox.com/s/raw/xzb4snv7y0widzu/xtrend-linux-4.4.8-20160504.tar.xz \
+SRC_URI += "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/xtrend-linux-4.4.8-20160504.tar.xz \
 	file://defconfig \
 	file://add-dmx-source-timecode.patch \
 	file://fix-proc-cputype.patch \

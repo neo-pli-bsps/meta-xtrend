@@ -22,7 +22,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "https://www.dropbox.com/s/raw/8b6y9vif4elnxsd/xtrend-linux-3.18.24-20151109.tar.gz \
+SRC_URI += "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/xtrend-linux-3.18.24-20151109.tar.gz \
 	file://defconfig \
 	file://add-dmx-source-timecode.patch \
 	file://af9015-output-full-range-SNR.patch \

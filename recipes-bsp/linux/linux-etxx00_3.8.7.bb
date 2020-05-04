@@ -21,7 +21,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "https://www.dropbox.com/s/raw/4gx7piw3jzbh162/linux-3.8.7.tar.gz \
+SRC_URI += "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/linux-3.8.7.tar.gz \
 	file://defconfig \
 	file://0001-kernel-add-support-for-gcc-5.patch \
 	file://kernel-gcc6.patch \

@@ -21,7 +21,7 @@ PKG_${KERNEL_PACKAGE_NAME}-image = "kernel-image"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "https://www.dropbox.com/s/raw/5rc745vwccwpowh/linux-4.10.6-mips.tar.gz \
+SRC_URI += "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/linux-4.10.6-mips.tar.gz \
 	file://defconfig \
 	file://0001-genet1-1000mbit.patch \
 	file://bcmgenet_phyaddr.patch \
