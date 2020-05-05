@@ -2,7 +2,7 @@ KV = "4.4.8"
 SRCDATE = "20170424"
 GCC = "6.3.0"
 
-SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et7x00-drivers-4.4.8-6.3.0-20170424.zip"
+SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et7x00-drivers-4.4.8-6.3.0-${SRCDATE}.zip"
 
 require et-dvb-modules.inc
 

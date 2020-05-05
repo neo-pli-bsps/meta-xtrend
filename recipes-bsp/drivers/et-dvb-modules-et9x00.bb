@@ -3,7 +3,7 @@ SRCDATE = "20180412"
 
 RDEPENDS_${PN} += "et-fpupdate-${MACHINE}"
 
-SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et9x00-drivers-3.8.7-20180412.zip"
+SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et9x00-drivers-3.8.7-${SRCDATE}.zip"
 
 require et-dvb-modules.inc
 

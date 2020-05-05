@@ -1,7 +1,7 @@
 KV = "4.10.6"
 SRCDATE = "20180412"
 
-SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et8000-drivers-4.10.6-20180412.zip"
+SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binaries-1.0/et8000-drivers-4.10.6-${SRCDATE}.zip"
 
 require et-dvb-modules.inc
 
