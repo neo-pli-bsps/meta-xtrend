@@ -7,7 +7,7 @@ SRC_URI = "https://github.com/neo-pli-bsps/meta-xtrend/releases/download/Binarie
 
 require et-dvb-modules.inc
 
-SRC_URI[md5sum] = "b9582de49bfdd5f6506c2b0e4757b540"
-SRC_URI[sha256sum] = "38e3b6be3e1112b5a32784ccdb7280828db5a8ced542320470ccee50540197c3"
+SRC_URI[md5sum] = "4a4b303b3b913f0ee64f52afc4a60be7"
+SRC_URI[sha256sum] = "f6b59f464b70406b95a5dd8cb2e6260b57d11d5568009586163849c7e9091773"
 
 COMPATIBLE_MACHINE = "et9.00"
