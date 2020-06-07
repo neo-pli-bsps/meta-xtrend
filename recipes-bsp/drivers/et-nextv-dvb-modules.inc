@@ -5,8 +5,6 @@ LICENSE = "CLOSED"
 
 PV = "${KV}+${SRCDATE}"
 
-SRC_URI = "http://downloads.mutant-digital.net/xtrend/${MACHINE}/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
-
 S = "${WORKDIR}"
 
 INHIBIT_PACKAGE_STRIP = "1"
