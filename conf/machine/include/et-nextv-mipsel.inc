@@ -42,6 +42,10 @@ IMAGEDIR ?= "${MACHINE}"
 IMGDEPLOYDIR ?= "${DEPLOY_DIR_IMAGE}"
 
 # MIPSEL
+IMAGE_CMD_ubi_prepend_mipsel = " \
+    rm -Rf ${IMAGE_ROOTFS}/tmp/*; \
+    "
+
 IMAGE_CMD_ubi_append_mipsel = " \
 	mkdir -p ${IMGDEPLOYDIR}/${IMAGEDIR}; \
 	cp ${IMGDEPLOYDIR}/${IMAGE_NAME}.rootfs.ubi ${IMGDEPLOYDIR}/${IMAGEDIR}/rootfs.bin; \
