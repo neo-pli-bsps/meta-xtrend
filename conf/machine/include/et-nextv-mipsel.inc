@@ -42,7 +42,8 @@ IMAGEDIR ?= "${MACHINE}"
 IMGDEPLOYDIR ?= "${DEPLOY_DIR_IMAGE}"
 
 # MIPSEL
-IMAGE_CMD_ubi_prepend_mipsel = " \
+IMAGE_CMD_ubifs_prepend_mipsel = " \
+    rm -Rf ${IMAGE_ROOTFS}/boot/*; \
     rm -Rf ${IMAGE_ROOTFS}/tmp/*; \
     "
 
