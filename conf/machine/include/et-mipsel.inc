@@ -28,7 +28,7 @@ PREFERRED_PROVIDER_virtual/libgl ?= "mesa"
 PREFERRED_PROVIDER_virtual/mesa ?= "mesa"
 PREFERRED_PROVIDER_virtual/kernel = "linux-et"
 
-MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition hdmicec"
+MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition hdmicec HDMI"
 
 MACHINE_EXTRA_RRECOMMENDS = " \
 	gst-plugin-dvbmediasink \
@@ -65,3 +65,12 @@ IMAGE_CMD_ubi_append_mipsel = " \
 	rm -Rf ${IMAGEDIR}; \
 	rm -Rf ${IMGDEPLOYDIR}/boot; \
 	"
+
+MTD_KERNEL = "mtd1"
+MTD_ROOTFS = "mtd2"
+KERNEL_FILE = "kernel.bin"
+ROOTFS_FILE = "rootfs.bin"
+
+BOX_BRAND = "xtrend"
+
+BLINDSCAN_BINARY = "avl_xtrend_blindscan"

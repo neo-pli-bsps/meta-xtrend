@@ -24,7 +24,7 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS = " \
 PREFERRED_PROVIDER_virtual/kernel = "linux-et-nextv"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "et-nextv-blindscan-dvbc-utils-${MACHINE}"
 
-MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition hdmicec"
+MACHINE_FEATURES += "alsa usbhost wlan 3dtv switchoff osdposition hdmicec HDMI"
 
 MACHINE_EXTRA_RRECOMMENDS = " \
 	gst-plugin-dvbmediasink \
@@ -59,3 +59,6 @@ IMAGE_CMD_ubi_append_mipsel = " \
 	rm -Rf ${IMGDEPLOYDIR}/boot; \
 	"
 
+BOX_BRAND = "xtrend"
+
+BLINDSCAN_BINARY = "avl_xtrend_blindscan"
